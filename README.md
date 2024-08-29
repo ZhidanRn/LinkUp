@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LinkUp - Chat App
 
-## Getting Started
+LinkUp is a modern chat application that allows users to connect with friends and send messages seamlessly. With a focus on simplicity and efficiency, LinkUp provides a streamlined user experience for real-time communication.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-Time Messaging:** Utilize Pusher and Pusher-js for real-time communication between users.
+- **User Authentication:** NextAuth integration with Upstash Redis Adapter for session management and user authentication.
+- **Responsive Design:** Built with Tailwind CSS to ensure the application is fully responsive across various devices.
+- **Form Handling:** React Hook Form with Zod for form validation.
+- **Dynamic Components:** Built with Headless UI and Heroicons for dynamic, accessible UI components.
+- **Toast Notifications:** Integrated using React Hot Toast for interactive user feedback.
+- **Autosizing Text Areas:** Smoothly expanding text areas using React Textarea Autosize for improved user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tools Used
+- Next.js
+- NextAuth
+- TypeScript
+- Tailwind CSS
+- Headless UI
+- Zod
+- Pusher
+- Upstash Redis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
 
-## Learn More
+   ```bash
+   git clone https://github.com/yourusername/LinkUp.git
+   cd LinkUp
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+# Deployment
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js. Check out the Next.js deployment documentation for more details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Sign up:**
+    - Navigate to the homepage and sign up or login with Google.
+
+2. **Add friends:**
+    - You can search for other users within the app and send them friend requests
+    - Once the friend request is accepted, you can start chatting with them.
+
+3. **Start chatting:**
+    - Once logged in, you can start a new chat by selecting a user from the list of available users.
+    - Click on the user's name to open the chat window and start sending messages in real-time.
+
+4. **Real-time communication:**
+    - Messages are sent and received in real-time through Pusher, which is a powerful library for real-time communication between web and mobile devices.
+
+5. **Responsive design:**
+    - The app is fully responsive across various devices, including desktops and mobile phones.
+
+6. **Log Out:**
+    - To log out, Click the logout button next to the profile. This will end the session and redirect you back to the login page.
+
+## Related Links
+- [Next.js](https://nextjs.org)
+- [NextAuth](https://next-auth.js.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Headless UI](https://headlessui.com)
+- [Zod](https://github.com/colinhacks/zod)
+- [Pusher](https://pusher.com)
+- [Upstash](https://upstash.com)
