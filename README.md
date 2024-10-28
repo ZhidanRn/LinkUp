@@ -27,7 +27,7 @@ LinkUp is a modern chat application that allows users to connect with friends an
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/LinkUp.git
+   git clone https://github.com/ZhidanRn/LinkUp.git
    cd LinkUp
    ```
 
